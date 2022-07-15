@@ -1,0 +1,9 @@
+GET /mytestfile.txt HTTP/1.1 X-additional-wait: 6
+
+
+GET /mytestfile.txt HTTP/1.1 
+User-Agent: Wget/1.20.3 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: 127.0.0.1:8080
+Connection: Keep-Alive

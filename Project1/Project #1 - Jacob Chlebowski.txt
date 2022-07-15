@@ -1,0 +1,10 @@
+Jacob Chlebowski
+
+1. 60 total packets in the capture. The capture lasted 9.198384 seconds
+2. DNS, TCP, SMTP, ICMP, SMTP/IMF, BROWSER
+3. gurpartap@patriots.in
+
+
+4. The sender says that they are transmitting a smtp pcap file. 
+The file (attachment), is a plaintext file with the name "NEWS.txt"
+which contains documented logs from a programs previous verions.

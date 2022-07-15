@@ -1,0 +1,13 @@
+What is pipelining?
+Go-Back-N vs. Selective Repeat
+
+
+Go-Back-N:
+-sender can have up to N UnACKed packets in pipeline
+-receiver only sends CUULATIVE ACK
+-sender has timer for oldest unACKED packet (when timer expires, retransmit ALL unACKED packets)
+
+Selective-Repeat:
+-sender can have i[ to N unACK'ed packets in pipeline
+-rcvr sends INDIVIDUAL ACK for each packet
+-sender maintains TIMER For each unACKED packet(when timer expires, retransmit ONLY that unACKED packet)

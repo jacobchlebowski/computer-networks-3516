@@ -1,0 +1,4 @@
+#You may have to trust the workspace before running the server
+#You may recieve a "serverPort not defined error," just close the file and reopen and it should work
+
+#I assumed an incorrectly formatted GET line would result in an "Error: invalid request line" and X-additional wait being incorrectly formatted printing "Error invalid headers" (nonetheless they both print errors)

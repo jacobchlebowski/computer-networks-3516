@@ -1,0 +1,33 @@
+1)  
+Frame1 (Physical Layer): Copper Wire
+Ethernet II (Data-Link)
+Internet Protocol Version 4(IPV4) (Network)
+User Datagram Protocol(UDP) (Transport)
+Domain Name System(DNS) (Application)
+
+2) Ethernet II
+
+3) Internet Protocol Version 4 (IPV4)
+
+4) User Datagram Protocol(UDP),Transmission Control Protocol (TCP)
+
+5) Domain Name System(DNS), Simple Mail Transfer Protocol (SMTP)
+
+6) Packet #1 consists of 5 layered protocols because
+they all have a specific role that contributes to sending the packet
+from a source to its final destination. Some of the layered
+protocols are encapsulated. Encapsulation is good for protocols for
+each layer that specify what to do with a file/object. Here are the layers
+(Application, Transport, Network, Data-Link, Physical), and their
+specific roles:
+
+Domain Name System(Application): specifices shared communications protocols (ex: messages, or HTTP, or SMTP, FTP, etc.) 
+Internet Protocol Version 4(Transport): provides reliable process to process in message delivery/error in delivery
+User Datagram Protocol(Network): Moves packets from source to destination
+Ethernet II(Data-Link): organize bits into frames, hop-to-hop delivery
+Frame1-Copper Wire(Physical): transmits bits over a medium
+
+Note: Each layer below encapsulates the layer above (ex: the transport layer contains the message (application header)...
+
+
+
